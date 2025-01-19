@@ -14,55 +14,9 @@
     
         <div class="mb-4 text-center">
             <input type="text" id="moduleInput" class="form-control w-50 mx-auto" placeholder="ESCRIBA EL NOMBRE DEL MÓDULO" oninput="updateModule()">
-        </div>
-        <div class="accordion" id="accordionSections">
-            <!-- Sección 1 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSection1">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#section1" aria-expanded="true" aria-controls="section1">
-                        Sección 1: Fotos de PMT
-                    </button>
-                </h2>
-                <div id="section1" class="accordion-collapse collapse show" aria-labelledby="headingSection1" data-bs-parent="#accordionSections">
-                    <div class="accordion-body">
-                        <ul class="list-group">
-                            <li class="list-group-item" data-id="1">
-                                <span class="task-title">FOTO PMT IZQUIERDA</span>
-                                <div class="dropzone">
-                                    <i class="fas fa-upload"></i> Arrastra y suelta aquí o haz clic para seleccionar
-                                </div>
-                            </li>
-                            <li class="list-group-item" data-id="2">
-                                <span class="task-title">FOTO PMT DERECHA</span>
-                                <div class="dropzone">
-                                    <i class="fas fa-upload"></i> Arrastra y suelta aquí o haz clic para seleccionar
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        
-            <!-- Sección 2 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSection2">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section2" aria-expanded="false" aria-controls="section2">
-                        Sección 2: Fotos Generales
-                    </button>
-                </h2>
-                <div id="section2" class="accordion-collapse collapse" aria-labelledby="headingSection2" data-bs-parent="#accordionSections">
-                    <div class="accordion-body">
-                        <ul class="list-group">
-                            <li class="list-group-item">FOTO GENERAL DEL PUNTO ANTES</li>
-                            <li class="list-group-item">FOTO GENERAL DEL PUNTO DESPUÉS</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
+        </div>       
     
-        <!--<ul id="checklist" class="list-group mb-4">
+        <ul id="checklist" class="list-group mb-4">
             <li class="list-group-item" data-id="1">
                 <span class="task-title">FOTO PMT IZQUIERDA</span>
                 <div class="dropzone">
@@ -501,7 +455,7 @@
                     <i class="fas fa-upload"></i> Arrastra y suelta aquí o haz clic para seleccionar
                 </div>
             </li>               
-        </ul>-->
+        </ul>
     
         <button class="btn btn-primary mb-3" onclick="showCompletedTasks()">Mostrar Tareas Completadas</button>
         <ul id="completedTasks" class="list-group mb-4" style="display: none;"></ul>
