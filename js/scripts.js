@@ -2,7 +2,7 @@ const GITHUB_API_URL = "https://api.github.com";
 const REPO_OWNER = "montoyacho"; // Reemplázalo con tu nombre de usuario de GitHub
 const REPO_NAME = "checklist"; // Reemplázalo con el nombre de tu repositorio
 const FILE_PATH = "data.json"; // Ruta del archivo JSON donde guardarás los datos
-const TOKEN = "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"; // Reemplázalo con tu token de acceso personal
+const TOKEN = "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"; // Reemplázalo con tu token de acceso personal
 
 const checklist = document.getElementById('checklist');
 const completedTasks = document.getElementById('completedTasks');
